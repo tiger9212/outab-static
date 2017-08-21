@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#root{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display:flex;
+}
+.box{
+    border:1px solid black;
+    display:flex;
+    flex-flow:column;
+    flex-basis:100%;
+}
+.box-body{
+    display:flex;
+    flex-basis:80%;
+}
+.box-header{
+    padding-left: 10%;
+    background-color: #333333;
+    flex-basis:10%;
+    align-items: center;
+    display:flex;
+    flex:1;
+}
+.box-sider{
+    background-color: yellow;
+    flex-basis:15%;
+    overflow:auto;
+}
+.box-content{
+    background-color: blanchedalmond;
+    flex-basis:85%;
+    overflow:auto;
+}
+.box-footer{
+    background-color: green;
+    flex-basis:10%;
+}
+
+/*.mian-box div{*/
+    /*flex:1;*/
+    /*flex-basis: 100%;*/
+/*}*/
