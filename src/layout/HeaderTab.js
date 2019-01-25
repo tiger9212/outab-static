@@ -9,7 +9,6 @@ import './app.css';
 export default class  HeaderTab extends Component{
     constructor(props){
         super(props);
-
     }
     render(){
         const menu = (

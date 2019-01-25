@@ -2,6 +2,7 @@
   "name": "outab-static",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.js",
   "dependencies": {
     "animate.css": "^3.5.2",
     "antd": "^2.12.6",
@@ -37,6 +38,8 @@
     "react-dev-utils": "^3.1.0",
     "react-dom": "^15.6.1",
     "react-error-overlay": "^1.0.10",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",

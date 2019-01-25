@@ -1,23 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+import Login from "./view/login/index";
+import Common from "./layout/Common";
+import {Route} from 'react-router';
+import {HashRouter} from 'react-router-dom';
 import './index.css';
-import registerServiceWorker from './registerServiceWorker';
-import HeaderTab from "./layout/HeaderTab";
-import MenuModule from "./menu/MenuModule";
-ReactDOM.render(
-    <div className="box">
-            <HeaderTab/>
-        <div className="box-body">
-            <div className="box-sider">
-                <MenuModule/>
-            </div>
-            <div className="box-content">
 
-            </div>
-        </div>
-        <div className="box-footer">
 
-        </div>
-    </div>
-    , document.getElementById('root'));
-registerServiceWorker();
+class Main extends React.Component{
+    render(){
+        return(<HashRouter>
+            <div>
+                <Route path="/login" component={Login} />
+                <Route path="/blog" component={Common}/>
+            </div>
+        </HashRouter>)
+    }
+}
+render(
+    <Main />,
+    document.getElementById('root')
+);

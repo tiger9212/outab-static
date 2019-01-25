@@ -1,0 +1,18 @@
+.login-form {
+    width:80%;
+    margin: 250px auto 0;
+    max-width: 300px;
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}
+.login-dev{
+    background-color: aqua;
+    width: 40%;
+    height: 25%;
+    display: flex;
+    margin: 5% auto;
+}

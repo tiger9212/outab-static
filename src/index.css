@@ -4,15 +4,9 @@ body {
     font-family: sans-serif;
 }
 #root{
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    display:flex;
+    overflow: hidden;
 }
+
 .box{
     border:1px solid black;
     display:flex;
@@ -25,7 +19,7 @@ body {
 }
 .box-header{
     padding-left: 10%;
-    background-color: #333333;
+    /*background-color: #333333;*/
     flex-basis:10%;
     align-items: center;
     display:flex;
